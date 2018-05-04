@@ -1,0 +1,10 @@
+{application,phoenix_facebook_messenger,
+             [{description,"PhoenixFacebookMessenger is a library that easy the creation of facebook messenger bots.\n"},
+              {modules,['Elixir.FacebookMessenger.Callback',
+                        'Elixir.FacebookMessenger.Phoenix.Controller',
+                        'Elixir.FacebookMessenger.Phoenix.Router',
+                        'Elixir.FacebookMessenger.Responder',
+                        'Elixir.FacebookMessenger.Responder.Mock']},
+              {registered,[]},
+              {vsn,"0.4.0"},
+              {applications,[kernel,stdlib,elixir,logger,httpotion]}]}.
